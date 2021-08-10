@@ -1,3 +1,35 @@
+:root {
+  /* CSS HEX */
+--independence: #525b76ff;
+--space-cadet: #201e50ff;
+--cadmium-orange: #f28f3bff;
+--lavender-blue: #b7c0eeff;
+--aero-blue: #cbf3d2ff;
+}
+
 body {
-  background-color: cadetblue;
+  background-color: var(--aero-blue);
+  margin:0;
+}
+
+.header {
+  background-color: var(--space-cadet);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.navigation a {
+  color: var(--aero-blue);
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 60px;
+  padding: 15px;
 }
