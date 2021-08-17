@@ -44,6 +44,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+/* nav for meta links */
 .footer-navigation {
   display: flex;
   flex-direction: row;
