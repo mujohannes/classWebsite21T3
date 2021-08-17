@@ -10,6 +10,9 @@
 body {
   background-color: var(--aero-blue);
   margin:0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 .header {
@@ -32,4 +35,33 @@ body {
 .logo {
   width: 60px;
   padding: 15px;
+}
+
+.footer {
+  background-color: var(--space-cadet);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-navigation {
+  display: flex;
+  flex-direction: row;
+}
+.footer-navigation a {
+  color: var(--aero-blue);
+  padding: 15px;
+  text-decoration: none;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  min-width: 150px;
+  justify-content: space-between;
+}
+.social a {
+  color: var(--aero-blue);
+  font-size: 32px;
+  display: block;
+  padding: 10px;
 }
