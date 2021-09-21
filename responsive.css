@@ -29,4 +29,60 @@
   .video {
     grid-column: span 1;
   }
+  /* footer */
+  .footer {
+    flex-direction: column-reverse;
+    padding-bottom: 30px;
+  }
+  .social {
+    min-width: 300px;
+  }
+  .social a {
+    font-size: 36px;
+  }
+  /* about page */
+  .about-apartment {
+    grid-column: span 1;
+  }
+  .gallery {
+    grid-template-columns: 1fr;
+    /* grid-column: span 1; */
+  }
+  .gallery img {
+    height: auto;
+    aspect-ratio: 3/2;
+    grid-gap: 15px;
+  }
+  .pricing {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+  }
+  .terms {
+    grid-column: span 1;
+  }
+  .section-heading {
+    grid-column: span 1;
+  }
+  /* contact page */
+  .map {
+    grid-column: span 1;
+    aspect-ratio: 1/1;
+  }
+  .getting-there {
+    grid-column: span 1;
+  }
+  .contact {
+    grid-column: span 1;
+  }
+  .contact-form {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  .contact-form label, .contact-form input, .contact-form textarea {
+    grid-column: span 1;
+  }
+  .contact-form .buttons {
+    grid-column: span 1;
+  }
 }
