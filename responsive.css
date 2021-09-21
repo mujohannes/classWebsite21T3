@@ -11,4 +11,22 @@
     min-width: 100%;
     border-top: 1px solid var(--aero-blue);
   }
+  .front-banner {
+    min-height: auto;
+    aspect-ratio: 1/1;
+  }
+  .banner-content h1 {
+    font-size: 22px;
+  }
+  .banner-content a {
+    font-size: 16px;
+    width: 10ch;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  .video {
+    grid-column: span 1;
+  }
 }

@@ -95,13 +95,14 @@ body {
 .banner-content h1 {
   color: var(--space-cadet);
 }
-.banner-content button {
+.banner-content a {
   background-color: var(--cadmium-orange);
   font-size: 20px;
   padding: 15px;
   border: 1px solid var(--space-cadet);
   border-radius: 30px;
   min-width: 200px;
+  text-align: center;
 }
 
 .container {
