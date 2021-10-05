@@ -41,6 +41,12 @@ body {
   width: 60px;
   padding: 15px;
 }
+.nav-button {
+  background-color: transparent;
+  color: var(--aero-blue);
+  font-size: 44px;
+  border-color: transparent;
+}
 
 .footer {
   background-color: var(--space-cadet);
