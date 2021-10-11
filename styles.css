@@ -247,3 +247,14 @@ body {
   height: 200px;
   object-position: center;
 }
+
+/* slideshow */
+.slideshow {
+  min-width: 100vw;
+}
+.slide img  {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
