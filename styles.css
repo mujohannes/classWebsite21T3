@@ -251,6 +251,7 @@ body {
 /* slideshow */
 .slideshow {
   min-width: 100vw;
+  margin-bottom: 3em;
 }
 .slide img  {
   width: 100vw;

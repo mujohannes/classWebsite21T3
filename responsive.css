@@ -95,4 +95,8 @@
   .contact-form .buttons {
     grid-column: span 1;
   }
+  /* slideshow */
+  .slide img {
+    height: 50vh;
+  }
 }
