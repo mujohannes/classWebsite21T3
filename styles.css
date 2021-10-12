@@ -46,6 +46,7 @@ body {
   color: var(--aero-blue);
   font-size: 44px;
   border-color: transparent;
+  display: none;
 }
 
 .footer {

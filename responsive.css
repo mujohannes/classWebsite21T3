@@ -21,6 +21,9 @@
   .navigation.open {
     max-height: 50vh;
   }
+  .nav-button {
+    display: block;
+  }
   .front-banner {
     min-height: auto;
     aspect-ratio: 1/1;
