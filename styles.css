@@ -5,6 +5,8 @@
 --cadmium-orange: #f28f3bff;
 --lavender-blue: #b7c0eeff;
 --aero-blue: #cbf3d2ff;
+--serif-font: 'PT Serif', serif;
+--sans-serif-font: 'Lato', sans-serif;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--serif-font);
 }
 
 .header {
@@ -22,6 +24,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+  font-family: var(--sans-serif-font);
 }
 .navigation a {
   color: var(--aero-blue);
@@ -38,8 +41,8 @@ body {
   flex-direction: row;
 }
 .logo {
-  width: 60px;
-  padding: 15px;
+  width: 120px;
+  padding: 5px;
 }
 .nav-button {
   background-color: transparent;
@@ -55,6 +58,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-family: var(--sans-serif-font);
 }
 /* nav for meta links */
 .footer-navigation {
@@ -142,6 +146,7 @@ body {
   background-color: var(--lavender-blue);
   border: solid 1px var(--independence);
   padding: 10px;
+  display: block;
 }
 
 .map {
@@ -207,6 +212,7 @@ body {
   color: white;
   border: 1px solid var(--independence);
   text-decoration: none;
+  display: block;
 }
 
 .about-apartment {
@@ -259,4 +265,25 @@ body {
   height: 70vh;
   object-fit: cover;
   object-position: center;
+}
+
+/* back to top */
+.back-to-top {
+  margin-top: 2em;
+  display: block;
+  color: var(--space-cadet);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: right;
+  grid-column: span 2;
+}
+
+.back-to-top::before {
+  content: "\2191";
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+
+.dollar::before {
+  content: "$";
 }

@@ -9,12 +9,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="script.js"></script>
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="top">
     <a href="index.html">
       <img class="logo" src="images/logo.png">
     </a>
@@ -31,7 +35,7 @@
 
     <div class="container">
       <div class="about-apartment">
-        <h3>About the apartment</h3>
+        <h3 id="about">About the apartment</h3>
         <p>
           We offer a spacious living area overlooking a beautiful garden.
           Modern and elegant bathroom and
@@ -85,14 +89,14 @@
         <img src="images/apartment_bath.jpg">
       </div>
       <div class="pricing">
-        <h3 class="section-heading">Pricing</h3>
+        <h3 class="section-heading" id="pricing">Pricing</h3>
         <div class="card">
           <h4>Winter</h4>
           <p>
             The pricing is for 2 people.<br>
             1st June - August 31st<br>
             The apartment is strictly non-smoking<br>
-            <strong>$200 per night</strong>
+            <strong class="dollar">200 per night</strong>
           </p>
         </div>
         <div class="card">
@@ -101,7 +105,7 @@
             1st September - December 18th<br>
             1st February - 31st May<br>
             Total amount is payable upon booking.<br>
-            <strong>$220 per night</strong>
+            <strong class="dollar">220 per night</strong>
           </p>
         </div>
         <div class="terms">
@@ -117,6 +121,7 @@
             <li>Monthly Price $5,400</li>
           </ul>
           <a class="button" href="contact.html#contact">Book Now</a>
+          <a href="#top" class="back-to-top">Back to top</a>
         </div>
       </div>
     </div>

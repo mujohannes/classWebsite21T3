@@ -102,4 +102,8 @@
   .slide img {
     height: 50vh;
   }
+  /* back to top */
+  .back-to-top {
+    grid-column: auto;
+  }
 }
