@@ -31,6 +31,7 @@ body {
   padding: 15px;
   text-decoration: none;
   font-size: 18px;
+  display: block;
 }
 .navigation a.active {
   color: white;
@@ -41,7 +42,7 @@ body {
   flex-direction: row;
 }
 .logo {
-  width: 120px;
+  width: 300px;
   padding: 5px;
 }
 .nav-button {
@@ -50,6 +51,29 @@ body {
   font-size: 44px;
   border-color: transparent;
   display: none;
+}
+/* dropdown menu */
+.dropdown {
+  position: relative;
+}
+.dropdown > a::after {
+  content: "\25bc";
+  font-size: 70%;
+  margin-left: 0.5em;
+}
+.dropdown:hover .dropdown-menu {
+  max-height: 300px;
+}
+.dropdown-menu {
+  position: absolute;
+  background-color: var(--independence);
+  z-index: 999;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.dropdown-menu a {
+  white-space: nowrap;
 }
 
 .footer {
@@ -152,6 +176,7 @@ body {
 .map {
   grid-column: span 2;
   aspect-ratio: 16/9;
+  background-color: var(--space-cadet);
 }
 .map iframe {
   width: 100%;

@@ -24,6 +24,10 @@
   .nav-button {
     display: block;
   }
+  /* dropdown menu */
+  .dropdown-menu {
+    position:static;
+  }
   .front-banner {
     min-height: auto;
     aspect-ratio: 1/1;

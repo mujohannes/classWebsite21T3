@@ -22,14 +22,20 @@
 <body>
   <header class="header" id="top">
     <a href="index.html">
-      <img class="logo" src="images/sorrento_by_the_sea_logo_transparent.png">
+      <img class="logo" src="images/transparent_logo.png">
     </a>
     <button type="button" class="nav-button">
       <i class="fas fa-bars"></i>
     </button>
     <nav class="navigation">
       <a href="index.html" class="active">Home</a>
-      <a href="about.html">About</a>
+      <div class="dropdown">
+        <a href="#">About</a>
+        <nav class="dropdown-menu">
+          <a href="about.html">About Apartment</a>
+          <a href="area.html">About Sorrento</a>
+        </nav>
+      </div>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
